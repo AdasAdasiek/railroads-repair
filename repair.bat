@@ -13,6 +13,6 @@ echo Usuwanie pliku RailRoads.exe
 del RailRoads.exe
 echo Usunieto
 echo Pobieranie naprawionej wersji.
-curl https://cdn.discordapp.com/attachments/1015677055599390750/1015752840557367316/RailRoads.exe -o RailRoads.exe
+curl https://github.com/AdasAdasiek/railroads-repair/raw/main/files/RailRoads.exe -o RailRoads.exe
 echo Pomyslnie naprawiono railroads.
 pause >nul
