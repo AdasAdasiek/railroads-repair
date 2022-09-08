@@ -4,7 +4,7 @@ os.system('pip install requests')
 print("Pomyślnie pobrano.")
 import requests
 folder = input("Podaj folder w którym wgrany jest RailRoads: ")
-link = "https://github.com/AdasAdasiek/railroads-repair/raw/main/files/RailRoads.exe"
+link = "https://github.com/AdasAdasiek/railroads-repair/releases/download/release/RailRoads.exe"
 
 def download(url: str, dest_folder: str):
     if not os.path.exists(dest_folder):
