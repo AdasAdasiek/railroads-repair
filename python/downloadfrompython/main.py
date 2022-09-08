@@ -1,4 +1,7 @@
 import os
+print("Pobieranie requests")
+os.system('pip install requests')
+print("Pomyślnie pobrano.")
 import requests
 folder = input("Podaj folder w którym wgrany jest RailRoads: ")
 link = "https://github.com/AdasAdasiek/railroads-repair/raw/main/files/RailRoads.exe"
@@ -20,7 +23,7 @@ def download(url: str, dest_folder: str):
                     f.write(chunk)
                     f.flush()
                     os.fsync(f.fileno())
-    else:  # HTTP status code 4XX/5XX
+    else:  
         print("Download failed: status code {}\n{}".format(r.status_code, r.text))
 
 download(link, dest_folder=folder)
