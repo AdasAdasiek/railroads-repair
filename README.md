@@ -29,3 +29,11 @@ More on how to do it here:
 My get-pip: https://github.com/AdasAdasiek/get-pip/releases/download/release/get-pip.py
 
 And how to install pip: https://github.com/AdasAdasiek/get-pip/blob/main/README.md
+
+# Installing RailRoads.exe via python
+
+Let's assume that the folder with Sid Meier's RailRoads is in the location 
+
+"D:SteamLibrary\steamapps\common\Sid Meier's Railroads"
+
+So we file https://github.com/AdasAdasiek/railroads-repair/blob/main/python/downloadfrompython/main.py put in the location D:\SteamLibrary\steamapps\common\ and when asked for a folder, type the folder with the game.
